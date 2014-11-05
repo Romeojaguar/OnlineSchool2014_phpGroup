@@ -22,15 +22,22 @@ class Controller_Admin extends Controller_System_Base  {
     public function action_addingus()
     {
 
-          if(isset($_POST['radiop'])){
 
-              $this->action_adduserp();
+        if (isset($_POST['rdbtn'])) {
+
+            $selected_radio = $_POST['radio'];
+
+            if ($selected_radio == 'teach') {
+
+                $this->action_adduserp();
+            }
+            else if ($selected_radio == 'pupil') {
 
 
-          }elseif(isset($_POST['radiot'])){
-              $this->action_addusert();
+                $this->action_addusert();
+            }
 
-          }
+        }
 
     }
 } // End Welcome

@@ -2,24 +2,27 @@
                           <div  class="modal-dialog ">
                                 <div class="modal-content">
 
-                                      <div id="registeruser">
+                                      <form  role="form" method="post" action="admin/addingus" name="form">
 
-                                          <div class="header">
+                                          <div id="registeruser">
 
-                                              <h1>Добавить нового пользователя<h1>
+                                              <div class="header">
+
+                                                  <h1>Добавить нового пользователя<h1>
+                                              </div>
+                                              <div id="cbxuregister">
+
+                                                      <div class="chk"><label class="radio-inline" ><input type="radio" name="radio" value="teach" > <span class="kalapaarida">Ученик </span></label></div>
+                                                      <div class="chkb"><label class="radio-inline"><input type="radio" name="radio" value="pupil" ><span class="kalapaarida">Учитель</span></label></div>
+
+                                              </div>
+                                              <div class="rgstrcntr">
+
+                                                  <input type="submit"  name='rdbtn' class="buttonregistr" value="Создать">
+
+                                              </div>
                                           </div>
-                                          <div id="cbxuregister">
-                                              <form role="form"  action="addingus" name="form" method="post">
-                                                  <div class="chk"><label class="radio-inline" ><input type="radio" name="radiop" value="Ученик" > <span class="kalapaarida">Ученик </span></label></div>
-                                                  <div class="chkb"><label class="radio-inline"><input type="radio" name="radiot" value="Учитель" ><span class="kalapaarida">Учитель</span></label></div>
-                                              </form>
-                                          </div>
-                                          <div class="rgstrcntr">
-
-                                             <a href="addingus" class="buttonregistr">Создать</a>
-
-                                          </div>
-                                      </div>
+                                      </form>
                                 </div>
                           </div>
                     </div>
@@ -29,8 +32,7 @@
                               <ul>
 
                                   <a href="#myModal" role="button" data-toggle="modal"><li>Регистрация нового пользователя</li></a>
-                                  <a href="admin/addusert"><li class="clssss"> Учитель</a>
-                                  <a href="admin/adduserp"><li class="clssss"> Ученик</a>
+
                                   <li> Зарегистрированные пользователи</li>
                               </ul>
 

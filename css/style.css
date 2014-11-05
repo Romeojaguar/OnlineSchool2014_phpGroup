@@ -1,4 +1,3 @@
-
 html {
     height: 100%;
     width: 100%;
@@ -25,9 +24,6 @@ img {
     margin: 0;
     padding: 0;
 }
-
-
-
 #containter {
     background: none repeat scroll 0 0 #ADD8E6;
     height: auto !important;
@@ -42,7 +38,6 @@ img {
     position: relative;
     width: 100%;
 }
-
 #header .logo {
     opacity: 0.3;
     padding-top: 1;
@@ -52,7 +47,6 @@ img {
     height: 5%;
     font-size: 20px;
 }
-
 #header .inner{
     text-align: center;
     font-family: 'Lobster', cursive;
@@ -62,21 +56,15 @@ img {
 }
 #header .inner_header
 {
-
-
     font-family: 'Lobster', cursive;
     font-size: 60px;
-
     line-height:1.7em;
 }
 #content{
-
 }
-
 a {
     color: #333333 !important;
     text-decoration: none !important;
-
 }
 #footer {
     max-width: 1300px;
@@ -89,9 +77,8 @@ a {
     clear:both;
 }
 .img_main{
-    opacity: 0.3;      filter: alpha(opacity=40);
+    opacity: 0.3;
     width: 100%;
-
 }
 .img_main2{
     opacity: 0.3;
@@ -99,15 +86,10 @@ a {
     float: right;
     width: 23%;
     height: 25%;
-
 }
 #admin_txt{
-
     font-size: 20px;
-
-
     margin-left: 10%;
-
 }
 #admin_txt  ul{
     margin-bottom:5px;
@@ -117,28 +99,22 @@ a {
 #admin_txt li {
     color: #333333 !important;
     padding-bottom: 10px;
-
 }
 .alala{
     min-height: 4px;
-
-
 }
 #admin_txt_t{
     margin-top: -16px;
     font-size: 20px;
     margin-left: 45%;
-
 }
 #admin_txt_t  ul{
-
     margin-bottom:5px;
     list-style-type: circle;
     border-bottom: none;
 }
 #admin_txt_t li {
     padding-bottom: 10px;
-
 }
 .clssss{
     margin-left: 30px;
@@ -149,7 +125,6 @@ a {
 
     line-height:1.7em;
     list-style-type: none;
-
 }
 a.button24 {
     font-size: 18px;
@@ -164,8 +139,6 @@ a.button24 {
     border-width: 3px 0;
     border-style: outset;
     border-radius: 9px;
-
-
 }
 #registeruser{
     margin-left: 15px;
@@ -173,24 +146,16 @@ a.button24 {
 }
 #registeruser .header{
     text-align: center;
-
-
 }
 #cbxuregister{
     padding-top: 20px;
-
-
     padding-bottom: 20px;
 }
 #cbxuregister .chk{
     margin: 0 140px 0 76px;
     float: left;
-
-
 }
 #cbxuregister .chkb{
-
-
 }
 .rgstrcntr{
     text-align: center;;
@@ -198,10 +163,8 @@ a.button24 {
 /*a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }*/
 a.button24:active { text-decoration: none; }
 a.buttonregistr {
-
     font-size: 18px;
     font-weight: bold;
-
     display: inline-block;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -211,32 +174,30 @@ a.buttonregistr {
     border-color: rgb(255, 255, 255);
     border-style: outset;
     border-radius: 9px;
-
-
 }
 a.buttonregistr:active { text-decoration: none; }
+.buttonregistr {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.4em 0.8em;
+    border-radius: 9px;
+}
 .kalapaarida{
     font-size: 30px;
-
 }
-
 #admin_addus{
     margin-left: auto;
-
-
     margin-right: auto;
     width: 75%;
 }
 #admin_addus .align{
     font-size: 22px;
     padding-bottom: 12px;
-
-
 }
 #admin_addus .right{
     width: 43%;
     float: right;
-
 }
 #admin_addus .center{
     text-align: center;
@@ -245,85 +206,58 @@ a.buttonregistr:active { text-decoration: none; }
 .addphoto{
     width: 4%;
     margin-left: 36%;
-
 }
 .addphotos{
     width: 4%;
     margin-left: 30%;
-
 }
-
 #addingrelative{
     padding-bottom: 20px;
     margin-left: -20px;
-
     margin-right: auto;
-
-
     height: 330px;
 }
 #addingrelative .header{
     text-align: center;
-
-
 }
 #addingrelative .adding{
     font-size: 22px;
     padding-bottom: 12px;
-
-
 }
 #addingrelative .align{
     font-size: 22px;
     padding-bottom: 12px;
-
-
 }
 #addingrelative .right{
     width: 43%;
     float: right;
-
 }
 #addingrelative .center{
     margin-top: 20px;
-
     text-align: center;
-
 }
 #addingartic{
     padding-bottom: 20px;
     margin-left: -20px;
-
     margin-right: auto;
-
-
     height: 150px;
 }
 #addingartic .header{
     text-align: center;
-
-
 }
 #addingartic .adding{
     font-size: 22px;
     padding-bottom: 12px;
-
-
 }
 #addingartic .align{
     font-size: 22px;
     padding-bottom: 12px;
-
-
 }
 #addingartic .right{
     width: 43%;
     float: right;
-
 }
 #addingartic .center{
     margin-top: 20px;
-
     text-align: center;
-
 }
